@@ -26,3 +26,18 @@ that the `ui` crate was renamed to `ti` so that it could be used in conjunction 
 [textinput](https://github.com/stormasm/textinput).
 
 But if you look at the file sizes of the two crates they are identical because 'u' was replaced with 't' in the crate name.
+
+The following functionality is not included in the `ti` crate that is included in the `ui` crate:
+
+- clipboard
+- dropdown
+- link
+- progress
+- radio
+- resizable
+- skeleton
+- slider
+- svg_img
+- table
+- time
+- webview
