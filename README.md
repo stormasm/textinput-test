@@ -20,3 +20,9 @@ It points at the `workspace` branch of this repository for its dependencies.
 ```rust
 ti = { git = "https://github.com/stormasm/textinput.git", branch = "workspace" }
 ```
+
+Note that the complete identical copy of the *workspace* crate means the only change was
+that the `ui` crate was renamed to `ti` so that it could be used in conjunction with
+[textinput](https://github.com/stormasm/textinput).
+
+But if you look at the file sizes of the two crates they are identical because 'u' was replaced with 't' in the crate name.
